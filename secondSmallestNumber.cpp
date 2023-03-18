@@ -4,27 +4,20 @@ and the number of digits as cnt.*/
 using namespace std;
 int main()
 {
-    int sum,cnt,cnt2=0,sum2,x,i,j,num1,num2;
+    int sum,cnt,cnt2=0,sum2,x,i,j,num1=1,num2=1;
     cout<<"How much should be the sum:";
     cin>>sum;
     cout<<"How many digits should be there in the number:";
     cin>>cnt;
-   switch(cnt)
+   for(i=1;i<cnt;i++)
    {
-   case 2:
-       num1=10;
-       num2=99;
-       break;
-   case 3:
-       num1=100;
-       num2=999;
-       break;
-   case 4:
-       num1=1000;
-       num2=9999;
-       break;
+       num1=num1*10;
    }
-    for(i=num1;i<=num2;i++)
+    for(i=1;i<=cnt;i++)
+   {
+       num2=num2*10;
+   }
+    for(i=num1;i<=num2-1;i++)
     {
         sum2=0;
         j=i;
