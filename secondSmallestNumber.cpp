@@ -1,5 +1,5 @@
-/*The task is to find the second smallest number with a given sum of digits as sum
-and the number of digits as cnt.*/
+/*The task is to find the second smallest number with a given sum of digits as "sum"
+and the number of digits as "cnt".*/
 #include<iostream>
 using namespace std;
 int main()
