@@ -53,9 +53,7 @@ int largestPrimeFactor(int num)
 
 int main()
 {
-    int num;
-    cout<<"Enter a number:";
-    cin>>num;
+    int num=35;
     int maxFactor=largestPrimeFactor(num);
     cout<<"Largest prime factor of "<<num<<" is:"<<maxFactor;
    return 0;
